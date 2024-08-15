@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Vocabular">
+    <file alias="qmldir">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/Vocabular/qmldir</file>
+  </qresource>
+</RCC>
+

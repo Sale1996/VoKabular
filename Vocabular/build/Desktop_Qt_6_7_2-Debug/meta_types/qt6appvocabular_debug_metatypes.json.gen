@@ -1,0 +1,223 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Backend",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "word",
+                        "notify": "wordChanged",
+                        "read": "word",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setWord"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "translatedWord",
+                        "notify": "translatedWordChanged",
+                        "read": "translatedWord",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "categories",
+                        "notify": "categoriesChanged",
+                        "read": "categories",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<QString>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Backend",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "wordChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "translatedWordChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "categoriesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "timerSecondPassed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "userAnswer",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "correctAnswer",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "userAnswer",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "wrongAnswer",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "correctAnswers",
+                                "type": "QVariantMap"
+                            },
+                            {
+                                "name": "wrongAnswers",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "name": "testFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "words",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "translations",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "name": "matcherWordsPrepared",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "matchResult",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "category",
+                                "type": "QVariant"
+                            },
+                            {
+                                "name": "checked",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "chosenCategoriesUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getNewWordPair",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startTest",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "cancelTest",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "answer",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "submitAnswer",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getMatcherWords",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "firstWord",
+                                "type": "QVariant"
+                            },
+                            {
+                                "name": "secondWord",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "submitMatch",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "timeout",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "backend.h",
+        "outputRevision": 68
+    }
+]

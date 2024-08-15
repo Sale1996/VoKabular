@@ -1,0 +1,10 @@
+-I
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug
+-I
+/home/astanic/Qt/6.7.2/gcc_64/./qml
+--resource
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Vocabular.qrc
+--resource
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appVocabular_raw_qml_0.qrc
+--module
+Vocabular

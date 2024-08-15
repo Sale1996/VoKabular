@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/Vocabular/">
+    <file alias="Main.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/Main.qml</file>
+    <file alias="CategoriesFrame.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/CategoriesFrame.qml</file>
+    <file alias="TrainingButtonsFrame.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/TrainingButtonsFrame.qml</file>
+    <file alias="TestPopup.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/TestPopup.qml</file>
+    <file alias="WordFrame.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/WordFrame.qml</file>
+    <file alias="WordMatcher.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/WordMatcher.qml</file>
+    <file alias="MatcherButton.qml">/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/MatcherButton.qml</file>
+  </qresource>
+</RCC>
+

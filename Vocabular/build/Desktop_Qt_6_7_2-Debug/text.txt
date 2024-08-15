@@ -1,0 +1,4 @@
+Man;Der Mann
+Woman;Die Frau
+Butterfly;Das Schmetterling
+Animal;Tier

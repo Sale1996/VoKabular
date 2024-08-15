@@ -1,0 +1,1 @@
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/appVocabular_autogen/include/../EWIEGA46WW/moc_backend.cpp.json

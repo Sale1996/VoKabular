@@ -1,0 +1,14 @@
+-rootPath
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular
+-cmake-output
+-output-file
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appVocabular_build.cmake
+-importPath
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/Vocabular
+-importPath
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug
+-importPath
+/home/astanic/Qt/6.7.2/gcc_64/./qml
+-qrcFiles
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Vocabular.qrc
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appVocabular_raw_qml_0.qrc

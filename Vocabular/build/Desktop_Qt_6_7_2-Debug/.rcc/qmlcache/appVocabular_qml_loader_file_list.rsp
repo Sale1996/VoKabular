@@ -1,0 +1,11 @@
+--resource
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Vocabular.qrc
+--resource
+/home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appVocabular_raw_qml_0.qrc
+/Vocabular/Main.qml
+/Vocabular/CategoriesFrame.qml
+/Vocabular/TrainingButtonsFrame.qml
+/Vocabular/TestPopup.qml
+/Vocabular/WordFrame.qml
+/Vocabular/WordMatcher.qml
+/Vocabular/MatcherButton.qml

@@ -1,0 +1,17 @@
+Man;Der Mann
+Woman;Die Frau
+Butterfly;Das Schmetterling
+Animal;Tier
+Dobar dan;Guten Tag
+Dobro vece;Guten Abend
+jedan;eins
+dva;zwei
+tri;drei
+cetiri;vier
+pet;funf
+sedam;sieben
+osam;acht
+devet;neun
+deset;zehn
+jedanaest;elf
+dvanaest;zwolf

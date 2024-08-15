@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appVocabular_FILE /home/astanic/Documents/Ucenje/QT/Projekti/Vocabular/build/Desktop_Qt_6_7_2-Debug/appVocabular)
+set(__QT_DEPLOY_TARGET_appVocabular_TYPE EXECUTABLE)

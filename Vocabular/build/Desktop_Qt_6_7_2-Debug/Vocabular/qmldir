@@ -1,0 +1,11 @@
+module Vocabular
+typeinfo appVocabular.qmltypes
+prefer :/Vocabular/
+Main 1.0 Main.qml
+CategoriesFrame 1.0 CategoriesFrame.qml
+TrainingButtonsFrame 1.0 TrainingButtonsFrame.qml
+TestPopup 1.0 TestPopup.qml
+WordFrame 1.0 WordFrame.qml
+WordMatcher 1.0 WordMatcher.qml
+MatcherButton 1.0 MatcherButton.qml
+
