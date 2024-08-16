@@ -35,6 +35,16 @@ Frame {
         return trainingButton.enabled;
     }
 
+    function disableMatcherButton()
+    {
+        wordMatcherButton.enabled = false;
+    }
+
+    function enableMatcherButton()
+    {
+        wordMatcherButton.enabled = true;
+    }
+
     Column {
         id: gameModeButtonsColumn
         anchors.fill: parent

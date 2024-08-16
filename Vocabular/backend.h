@@ -35,6 +35,7 @@ signals:
     void testFinished(QVariantMap correctAnswers, QVariantMap wrongAnswers);
     void matcherWordsPrepared(QVariantList words, QVariantList translations);
     void matchResult(QVariant result);
+    void categoriesListEmpty();
 
 public slots:
     void chosenCategoriesUpdated(QVariant category, QVariant checked);

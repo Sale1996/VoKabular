@@ -30,11 +30,6 @@ Window {
                     gameModeButtonsFrame.enableButtons();
                 }
             }
-            else
-            {
-                wordFrame.changeState(wordFrame.wordFrameStates.DefaultState);
-                gameModeButtonsFrame.disableButtons()
-            }
         }
         onCorrectAnswer: userAnswer => {
             wordFrame.changeState(wordFrame.wordFrameStates.CorrectAnswerState);
@@ -53,13 +48,33 @@ Window {
             testPopup.openPopup(correctAnswers, wrongAnswers)
         }
         onMatcherWordsPrepared: (matcherWords,matcherTranslations) => {
-            console.log(matcherWords);
-            console.log(matcherTranslations);
-            wordMatcher.fillNewWords(matcherWords, matcherTranslations);
+            if(matcherWords.length !== 0  && matcherTranslations.length !== 0 ){
+                wordMatcher.fillNewWords(matcherWords, matcherTranslations);
+                gameModeButtonsFrame.enableMatcherButton();
+            }
+            else if (backend.categories.lenght !== 0)
+            {
+                if(wordMatcher.visible)
+                {
+                    wordMatcher.visible = false;
+                    wordFrame.visible = true;
+                }
+                gameModeButtonsFrame.disableMatcherButton();
+            }
         }
         onMatchResult: (result) => {
             wordMatcher.onMatchingResult(result);
         }
+        onCategoriesListEmpty: {
+            if(wordMatcher.visible)
+            {
+                wordMatcher.visible = false;
+                wordFrame.visible = true;
+            }
+            wordFrame.changeState(wordFrame.wordFrameStates.DefaultState);
+            gameModeButtonsFrame.disableButtons()
+        }
+
         //BUG2 kada odcekujemo sve kategorije, tebi pukne aplikacija!
         //IMAS BUG, KADA SI U STATEU ZA TACAN ILI NETACAN ODGOVOR I KLIKNES START TEST
     }

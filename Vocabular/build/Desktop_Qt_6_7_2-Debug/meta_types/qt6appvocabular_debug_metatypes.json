@@ -139,6 +139,11 @@
                         ],
                         "name": "matchResult",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "categoriesListEmpty",
+                        "returnType": "void"
                     }
                 ],
                 "slots": [

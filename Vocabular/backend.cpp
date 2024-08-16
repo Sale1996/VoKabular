@@ -57,7 +57,11 @@ void Backend::chosenCategoriesUpdated(QVariant category, QVariant checked)
     if(!m_exerciseVocabulary.empty())
             getNewWordPair();
     else
+    {
         setWord("");
+        emit categoriesListEmpty();
+    }
+
 
     int a = 0;
 }
@@ -114,6 +118,12 @@ void Backend::getMatcherWords()
     QVariantList translations;
 
     QList<QString> keys = m_exerciseVocabulary.keys();
+
+    if(keys.length() < 5)
+    {
+        emit matcherWordsPrepared(words, translations);
+        return;
+    }
 
     //We need 6 words.
     for(int i = 0; i < 6; i++)

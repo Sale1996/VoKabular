@@ -1,0 +1,4 @@
+Mand;Covek
+Womand;Zena
+Butterflyd;Leptir
+Animald;Zivotinja
